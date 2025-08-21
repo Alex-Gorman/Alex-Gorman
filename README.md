@@ -1,16 +1,19 @@
-## Hi there 👋
+# Portfolio Website
 
-<!--
-**Alex-Gorman/Alex-Gorman** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This repository contains my personal portfolio website, which has been built with simple HTML and CSS and hosted on GitHub Pages.
 
-Here are some ideas to get you started:
+## About
+The site highlights my software engineering projects, skills, and resume.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Live Site:** [alex-gorman.github.io](https://alex-gorman.github.io)
+
+## Features
+- Projects with links
+- Resume download
+- Contact information
+
+## Tech Stack
+- HTML
+- CSS
+- GitHub Pages for hosting
+

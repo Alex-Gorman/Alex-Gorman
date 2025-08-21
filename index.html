@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Alex Gorman - Software Engineer</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header class="container">
+            <nav class="nav">
+                <a class="brand" href="index.html">Alex Gorman</a>
+                <div class="links">
+                    <a href="#projects">Projects</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+            <section class="top">
+                <h1>Hi, I'm Alex Gorman</h1>
+                <p>Software Engineer</p>
+                <div class="cta">
+                    <a class="btn" href="documents/Alex_Gorman_Resume.pdf">Resume</a>
+                    <a class="btn ghost" href="https://github.com/Alex-Gorman">GitHub</a>
+                </div>
+            </section>
+        </header>
+
+        <main class="container">
+          <section id="projects">
+            <h2>Featured Projects</h2>
+            <div class="grid">
+              <article class="card">
+                <h3>Electronic Medical Record (EMR)</h3>
+                <p>Full-stack EMR with React, Node/Express, and MySQL. Appointment booking, search, and medical record management.</p>
+                <div class="meta">React · Node · MySQL · Docker</div>
+                <a class="btn small" href="https://github.com/Alex-Gorman/Electronic-Medical-Record-System">Source</a>
+              </article>
+
+              <article class="card">
+                <h3>Soccer Match Analytics</h3>
+                <p>Data pipeline + visualizations for match outcomes and xG-style metrics.</p>
+                <div class="meta">Python · Pandas · Plotly</div>
+                <a class="btn small" href="https://alex-gorman.github.io/Soccer-Match-Analytics/">Live</a>
+                <a class="btn small ghost" href="https://github.com/Alex-Gorman/Soccer-Match-Analytics">Source</a>
+              </article>
+
+              <article class="card">
+                <h3>Checkers Networking (Java)</h3>
+                <p>Multiplayer checkers game with networking support. Implemented client–server architecture in Java, enabling two players to compete over a network connection.</p>
+                <div class="meta">Java · Sockets · Networking · OOP</div>
+                <a class="btn small" href="https://github.com/Alex-Gorman/Checkers-Networking-Java">Source</a>
+              </article>
+
+              <article class="card">
+                <h3>Stock Price Dashboard (Python)</h3>
+                <p>Interactive Streamlit app for equity analysis: view live price charts with moving averages, compare relative performance, and explore risk metrics like rolling volatility and drawdowns.</p>
+                <div class="meta">Python · Streamlit · Plotly · pandas · yfinance</div>
+                <a class="btn small" href="https://github.com/Alex-Gorman/Stock-Price-Dashboard">Source</a>
+              </article>
+            </div>
+          </section>
+
+          <section id="contact">
+            <h2>Contact</h2>
+            <ul class="stack">
+              <li>Email: <a href="mailto:a.gorman029@gmail.com">a.gorman029@gmail.com</a></li>
+              <li>LinkedIn: <a href="https://www.linkedin.com/in/alex-gorman-2b5197294/">@alex-gorman</a></li>
+              <li>GitHub: <a href="https://github.com/Alex-Gorman">@Alex-Gorman</a></li>
+            </ul>
+          </section>
+
+          <section id="about">
+            <h2>About</h2>
+            <p>
+              I’m a software engineer with a background in Computer Science and Physiology/Pharmacology. 
+              I like working on projects that are both practical and challenging, whether that means building 
+              out a complete web application, experimenting with networking in Java, or analyzing real-world 
+              data with Python. Some of the projects I’ve built include an Electronic Medical Record system, 
+              a networked multiplayer checkers game, a stock price dashboard, and a soccer match analytics tool.
+            </p>
+            <p>
+              My main strengths are in React, Node/Express, SQL, and Python, and I’m also comfortable with 
+              Docker and setting up CI/CD pipelines. I enjoy taking ideas from concept to working software 
+              and focusing on making things reliable, user-friendly, and easy to build on.
+            </p>
+          </section>
+
+          <footer class="container footer">
+            <small>© <span id="year"></span> Alex Gorman. All rights reserved.</small>
+          </footer>
+
+          <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+          </script>
+        </main>
+    </body>
+</html>
+
